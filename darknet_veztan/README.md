@@ -6,7 +6,7 @@ obtained from these to perform form identification task.
 To set up darknet for the OCR, please follow the steps below to first install `opencv`:
 1. At the AWS command prompt (represented here with the symbol $), after doing `source activate <desired_evn>`, use conda to install opencv4: $ conda install -c conda-forge opencv
 2. Then say for the conda env `pytorch_p36`: $ export PKG_CONFIG_PATH="/home/ec2-user/anaconda3/envs/pytorch_p36/lib/pkgconfig"
-3. Afterwards, do: $ pkg-config --cflags opencv
+3. Afterwards, do: $ pkg-config --cflags opencv4
 
 And after that, to make sure some darknet start problems will not arise due to some lib sharing issues, do: 
 1. For the env `pytorch_p36` : $ sudo /bin/bash -c 'echo "/home/ec2-user/anaconda3/envs/pytorch_p36/lib" > /etc/ld.so.conf.d/opencv.conf'
