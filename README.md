@@ -1,5 +1,5 @@
-# Veztan-OCR
-A repository for keep a record of some findings made regarding AICON OCR projects
+# OCR with YOLO
+A repository for keep a record of some findings made regarding some OCR project
 
 ## Literature & Datasets: 
 
